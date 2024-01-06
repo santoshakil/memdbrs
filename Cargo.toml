@@ -13,3 +13,4 @@ anyhow = "1"
 libc = "0"
 logrs = { path = "../logrs" }
 log = "0"
+rand = "0"
