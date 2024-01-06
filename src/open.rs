@@ -45,7 +45,7 @@ pub fn open(path: String) -> Result<()> {
     let end_address = (memory as usize) + len as usize;
     log::info!("End address: {:p}", end_address as *const u8);
 
-    // Reading 10 bytes after offset 42
+    // Reading 10 bytes after a offset
     let offset = 1024 * 1024 * 1024 / 2;
     let bytes_to_read = 10;
     let data_slice = unsafe {
