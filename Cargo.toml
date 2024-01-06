@@ -10,5 +10,6 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 anyhow = "1"
+libc = "0"
 logrs = { path = "../logrs" }
 log = "0"

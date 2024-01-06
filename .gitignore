@@ -3,3 +3,4 @@
 *.lock
 *.log
 *.memdbrs
+*.ms
